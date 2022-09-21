@@ -29,7 +29,7 @@ int main() {
     return 0;
 }
 
-void addToCompList(vector<computers>&comp){
+void addToCompList(vector<computers>comp){
 
     for(int i = 0; i < comp.size(); i++){
         comp[i].setFormFactor();
